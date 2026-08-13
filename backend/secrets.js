@@ -1,6 +1,6 @@
 import { Router } from 'express';
-import { supabaseAdmin } from '../config/supabase.js';
-import { encrypt, decrypt } from '../utils/crypto.js';
+import { supabaseAdmin } from './supabase.js';
+import { encrypt, decrypt } from './crypto.js';
 
 export const secretsRouter = Router();
 
