@@ -1,4 +1,4 @@
-import { supabaseAdmin } from '../config/supabase.js';
+import { supabaseAdmin } from './supabase.js';
 
 export async function requireAuth(req, res, next) {
   const token = req.headers.authorization?.replace('Bearer ', '');
