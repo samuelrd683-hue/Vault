@@ -1,8 +1,8 @@
 import express from 'express';
 import cors from 'cors';
 import 'dotenv/config';
-import { requireAuth } from './middleware/auth.js';
-import { secretsRouter } from './routes/secrets.js';
+import { requireAuth } from './auth.js';
+import { secretsRouter } from './secrets.js';
 
 const app = express();
 app.use(cors());
