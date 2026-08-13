@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import '/config';
+import 'dotenv/config';
 import { requireAuth } from './auth.js';
 import { secretsRouter } from './secrets.js';
 
